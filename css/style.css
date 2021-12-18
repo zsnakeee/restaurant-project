@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+body {
+    font-family: 'Aclonica', sans-serif;
+    background-color: #121618;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    width: 90%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column {
+    flex: 50%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 145px;
+    padding: 15px;
+}
+
+
+.navbar_
+{
+    background-color: #0F1214;
+}
+
+
+.navbar_:link,
+.navbar_:visited {
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: #0F1214;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.navbar_:hover {
+    background-color: #FD8A06;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.footer {
+    padding-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F1214;
+    color: white;
+    text-align: center;
+  }
